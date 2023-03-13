@@ -1,0 +1,27 @@
+sparc/
+spider/
+cosql_dataset/
+data/
+.vscode/
+notebooks/
+models/
+
+__pycache__/
+
+# ignore the pypi things
+dist/
+src/text2sql.egg-info/PKG-INFO
+
+.DS_STORE
+_temp.png
+
+# notebooks, unless explicilty mentioned.
+.ipynb_checkpoints/
+*.ipynb
+
+# let people process those
+*tsv
+
+# mostly the dump files
+*.txt
+*.log
